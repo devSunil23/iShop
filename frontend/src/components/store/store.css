@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.storeHeader {
+  width: 100%;
+  margin-top: 5px;
+  height: 36px;
+  background-color: #fafbfb;
+}
+.storeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.storeHeaderitem span {
+  color: #33a0ff;
+  padding: 0 4px;
+}
+.storeHeaderitem .forwerd {
+  color: #c1c8ce;
+}
+.storeHome {
+  display: flex;
+  width: 80%;
+  margin: 40px auto;
+  overflow-x: hidden;
+}
+.storeHomeLeft {
+  width: 22%;
+}
+.storeHomeRight {
+  width: 78%;
+  padding-left: 10px;
+}
+.storeleftCard {
+  width: 100%;
+  background-color: #f6f7f8;
+  padding: 10px;
+}
+.appleCar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.storePrices {
+  background-color: #f6f7f8;
+  margin: 10px 0;
+  height: 115px;
+  padding: 8px;
+}
+.moreStore {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #f6f7f8;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.ranges {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  padding: 3px 0;
+}
+.circleColor {
+  width: 100%;
+  margin-left: 5px;
+}
+.color {
+  background-color: #f6f7f8;
+  padding: 2px;
+  margin: 10px 0;
+}
+.colorName {
+  margin: 5px;
+}
+/* Right */
+.bigLeftStore {
+  margin: 40px;
+  color: #fff;
+}
+.bigBannerStore {
+  height: 40vh;
+  background-color: #2e90e5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+}
+.bigLeftPara2Store {
+  font-size: 17px;
+  width: 75%;
+  letter-spacing: 1px;
+  margin: 5px 0;
+  opacity: 0.9;
+}
+.shopNowButtonStore {
+  margin-top: 10px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  font-size: 13px;
+}
+.mobilePhoneImageStore {
+  width: 55%;
+  height: 89%;
+  margin-left: 100px;
+}
+.storePart2 {
+  width: 100%;
+  height: 7vh;
+  background-color: #f6f7f8;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+.storePart2left {
+  display: flex;
+}
+.storePart2left .itemCounts,
+.sortBy,
+.showItem,
+.sortBy label,
+.showItem label {
+  padding: 0 12px;
+}
+#sortBy {
+  width: 80px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+#show {
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.gridBar {
+  display: flex;
+  align-items: center;
+}
+.cardItemStore {
+  width: 31%;
+  display: inline-block;
+  height: 300px;
+  border: 2px solid rgb(241, 238, 238);
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 8px;
+}
+.paginationContainer {
+  width: 100%;
+  margin: auto;
+}
+.badgeHotStore {
+  visibility: hidden;
+}
+.pagiNationBar {
+  background-color: #f6f7f8;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.filterShow {
+  display: none;
+}

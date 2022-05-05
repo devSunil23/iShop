@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginContainer,
+.registration {
+  width: 45%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px 5px gainsboro;
+  padding: 5px;
+  border-radius: 6px;
+}
+.emailInput,
+.passwordInput {
+  width: 100%;
+}
+.commonStyleLogin {
+  margin: 2px 0;
+}
+.loginContainer input,
+.registration input {
+  outline: none;
+  padding: 4px 10px;
+  border: 1px solid #dedbdb;
+  border-radius: 3px;
+}
+.loginButton {
+  cursor: pointer;
+  background-color: #33a0ff;
+  color: #ffff;
+  margin: 10px 0;
+  padding: 5px 0;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  box-shadow: 3px 8px 10px -1px rgb(211, 212, 213);
+}
+.creatAccount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #33a0ff;
+  text-decoration: none;
+}
+.creatAccount:hover {
+  text-decoration: underline;
+}
+.headingLoginSignup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration p,
+.loginContainer p {
+  color: red;
+  font-size: 12px;
+}

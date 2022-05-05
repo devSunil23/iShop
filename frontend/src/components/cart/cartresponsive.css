@@ -1,0 +1,61 @@
+@media (max-width: 840px) {
+  .cart {
+    width: 100%;
+    margin: auto;
+  }
+  .cartInner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .cartHeading2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartHeading2Right {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: -400px;
+    padding-top: -20px;
+  }
+  .cartItem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartItemRight {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cartHeading2Left {
+    margin-left: 0;
+  }
+  .cartItemLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-left: 20px;
+  }
+  .rightPrice {
+    margin-top: 10px;
+  }
+  .pricecart {
+    margin-top: -85px;
+  }
+  .cardBottom {
+    flex-direction: column;
+  }
+  .cardBottomRight {
+    width: 90%;
+    margin: auto;
+  }
+  .cardBottomLeft {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .voucherCode {
+    width: 78%;
+  }
+}

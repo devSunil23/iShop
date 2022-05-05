@@ -1,0 +1,7 @@
+@media (max-width: 840px) {
+  .loginContainer,
+  .registration {
+    width: 90%;
+    margin: 20px auto;
+  }
+}

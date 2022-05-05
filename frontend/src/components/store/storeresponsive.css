@@ -1,0 +1,64 @@
+@media (max-width: 840px) {
+  .storeHome {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .storeHomeRight {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .bigLeftStore {
+    margin: 5px;
+  }
+  .bigBannerStore {
+    height: 30vh;
+    background-color: #2e90e5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0px;
+  }
+  .bigLeftPara2Store {
+    font-size: 14px;
+    width: 90%;
+  }
+  .paginationContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardItemStore {
+    width: 90%;
+    margin: auto;
+  }
+  .storeHomeLeft {
+    display: none;
+  }
+  .itemCounts {
+    display: none;
+  }
+  .storePart2 {
+    display: flex;
+    align-items: center;
+  }
+  .storePart2left {
+    width: 100%;
+  }
+  .filterShow {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+  }
+  .sortBy,
+  #sortBy,
+  .showItem label,
+  #show,
+  .fa-filter,
+  .filter {
+    font-size: 12px;
+  }
+  .filter,
+  .fa-filter {
+    padding: 0 1px;
+  }
+}

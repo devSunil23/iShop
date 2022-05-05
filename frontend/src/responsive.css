@@ -1,0 +1,72 @@
+/* header */
+.fa-bars {
+  font-size: 27px;
+  display: none;
+}
+.responsivemenuBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.menuItems {
+  text-decoration: none;
+}
+.resposiveHeader {
+  display: none;
+}
+@media (max-width: 842px) {
+  .headerfirst {
+    display: none !important;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .responsivemenuBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    color: #fff;
+    padding-top: 20px;
+  }
+  .resposiveHeader {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    border-bottom: 2px solid gray;
+  }
+  .logoIshop {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .headerSecond {
+    width: 92% !important;
+  }
+  .menuItems {
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  .menuBar {
+    display: none !important;
+  }
+
+  .cartItemquantity,
+  .profileName {
+    color: black;
+  }
+  .searchIcon {
+    color: black;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .cartItemquantity,
+  .profileName {
+    display: none;
+  }
+}

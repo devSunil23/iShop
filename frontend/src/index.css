@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Baloo+Paaji+2&family=Mukta:wght@200&family=Raleway:wght@200&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2", cursive;
+}
+/* Header Styling */
+.header {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.headerfirst {
+  width: 70%;
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px auto;
+  align-items: center;
+}
+.headerFirstRight1,
+.headerFirstRight3,
+.headerFirstRight,
+.headerFirstLeft {
+  display: flex;
+  align-items: center;
+}
+.headerFirstLeft1,
+.headerFirstLeft2 {
+  margin: 0 3px;
+}
+.headerFirstLeft1 #language,
+.headerFirstLeft2 #payment {
+  border: none;
+  outline: none;
+  font-size: 10px;
+}
+.headerFirstRight1 {
+  margin: 0 15px;
+}
+.profileImage {
+  height: 13px;
+  width: 13px;
+  margin: 0 7px;
+}
+.profileName {
+  font-size: 13px;
+}
+.headerFirstRight2 {
+  margin: 0 20px;
+}
+.headerFirstRight2 .badge {
+  margin: 0 4px;
+  cursor: pointer;
+}
+.bagImage {
+  height: 12px;
+  width: 12px;
+}
+.headerFirstRight2 .itemQty {
+  margin: 0 3px;
+  font-size: 15px;
+}
+.headerFirstRight2 .priceItems {
+  margin: 0 5px;
+  font-size: 15px;
+  opacity: 50%;
+}
+.headerFirstRight3 {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.LoginButton {
+  background-color: #2e90e5;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 0px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* header second */
+.headerSecond {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+.logoIshop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menuBar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.menuBar .menuItems {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.menuBar .menuItems:hover {
+  color: #2e90e5;
+}
+a.active {
+  color: #2e90e5;
+}
+.caroImage {
+  width: 100%;
+  height: 60vh;
+  margin-top: 10px;
+}
+/* Best Seller Styling */
+.bestSellerContainer {
+  width: 70%;
+  margin: 20px auto;
+}
+.bestSellerHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bestSellerMenu {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.bestSellerMenu li {
+  list-style: none;
+}
+.activeBestSeller {
+  color: #2e90e5;
+  border-bottom: 3px solid #2e90e5;
+}
+.cardContainer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  margin: auto;
+  margin-left: 45px;
+}
+.cardItem {
+  width: 20%;
+  height: 300px;
+  border: 2px solid rgb(241, 238, 238);
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px 10px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.cardItem:hover {
+  box-shadow: 4px 5px 20px -2px rgb(197, 193, 193);
+  border: 2px solid rgb(207, 205, 205);
+}
+.cardItem:hover .badgeHot {
+  visibility: hidden;
+}
+.cardItem:hover .cardItemImage {
+  filter: blur(200px);
+}
+.cardItem:hover .heartFillCart {
+  display: block;
+}
+.badgeHot {
+  width: 33px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  height: 18px;
+  padding: 4px 6px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 3px;
+  margin-top: 5px;
+  background-color: #ff4858;
+  border-radius: 2px;
+  color: #fff;
+  transition: all 0.1s ease;
+  display: flex;
+  align-items: center;
+}
+.cardItemImage {
+  width: 92%;
+  margin: auto;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+.heartFillCart {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  display: none;
+}
+.heartFillCart img {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  margin: 5px;
+}
+.cardSecondPara {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.starRating {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: #ff4858;
+}
+.price span {
+  margin-left: 5px;
+  color: #c1c8ce;
+  text-decoration: line-through;
+}
+.starRatingCard {
+  margin-top: 30px;
+}
+.loadMore {
+  display: flex;
+  justify-content: center;
+}
+.loadMore p {
+  display: inline-block;
+  margin: 40px 0;
+  text-transform: uppercase;
+  color: #33a0ff;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 5px;
+  border-bottom: 2px solid #33a0ff;
+}
+.bigBanner {
+  width: 100%;
+  height: 55vh;
+  background-color: #2e90e5;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  margin-top: 20px;
+}
+.bigLeft {
+  margin-left: 16rem;
+  margin-top: 5rem;
+  color: #fff;
+}
+.bigLeftPara1 {
+  font-size: 35px;
+  margin: 10px 0;
+}
+.bigLeftPara2 {
+  font-size: 17px;
+  width: 68%;
+  letter-spacing: 1px;
+  margin: 20px 0;
+  opacity: 0.9;
+}
+.shopNowButton {
+  margin-top: 40px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.mobilePhoneImage {
+  margin-top: -60px;
+  width: 55%;
+  height: 377px;
+  margin-left: 100px;
+}
+.services {
+  width: 65%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.servicesComponent {
+  width: 30%;
+}
+.shippingLogo {
+  height: 30px;
+  width: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.shippingServices {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.shippingPara {
+  font-size: 14px;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.featureProductContainer {
+  margin-top: 60px;
+}
+.featureProductHead {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.featuredProductMultiCrausel {
+  width: 75%;
+  margin: 40px auto;
+  padding: 20px 0;
+}
+.featureProductCard {
+  display: flex;
+  padding: 0 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  height: 22vh;
+  width: 250px;
+  align-items: center;
+  border: 1px solid rgb(247, 242, 242);
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.featureProductCard:hover {
+  border: 1px solid rgb(222, 219, 219);
+  box-shadow: 1px 2px 20px -1px rgb(214, 212, 212);
+  border-radius: 5px;
+}
+
+.featureProductCardLeftImg {
+  height: 70px;
+  width: 90px;
+  border: 1px solid rgb(233, 229, 229);
+  padding: 10px 0;
+  margin: 0 8px;
+}
+.featureProductCardRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featureProductPara {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.price {
+  font-size: 15px;
+  margin-top: 0px;
+}
+/* footer Styling */
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 2px solid rgb(247, 242, 242);
+  border-bottom: 2px solid rgb(247, 242, 242);
+  margin-bottom: 20px;
+}
+.footer1 {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  border-bottom: 2px solid rgb(229, 225, 225);
+}
+.footer1Common {
+  width: 28%;
+  height: 26vh;
+  padding: 5px;
+}
+.footerIshopHeader {
+  opacity: 0.5;
+  padding: 10px 0;
+}
+.footerIshopPara {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.footerMidHead {
+  opacity: 0.9;
+  font-size: 17px;
+  padding: 10px 0;
+}
+.footerMidPara {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.socialIcontf {
+  padding: 15px 0;
+}
+.twitter {
+  padding: 0 20px;
+}
+.contactus {
+  font-size: 15px;
+  padding: 10px 0;
+}
+.contactpara {
+  font-size: 14px;
+  padding-right: 15px;
+  opacity: 0.8;
+}
+.footer2 {
+  width: 70%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer2Header {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.footer2Para {
+  padding: 6px 0;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.payMentIcon {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+}
+.paymentImg {
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+.showList {
+  position: absolute;
+  top: 80px;
+  height: 250px;
+  background-color: #fff;
+  z-index: 999;
+  width: 100%;
+  border-top: 2px solid rgb(248, 244, 244);
+  border-radius: 3px;
+  box-shadow: 2px 2px 20px -10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+}
+.showList ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.showListHead {
+  opacity: 0.6;
+  font-size: 17px;
+  height: 35px;
+}

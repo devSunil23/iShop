@@ -1,0 +1,111 @@
+@media (max-width: 840px) {
+  .carouselPart {
+    height: 30vh;
+  }
+  .caroImage {
+    height: 30vh;
+  }
+  .bestSellerMenu {
+    width: 100%;
+  }
+  .cardItem {
+    width: 100%;
+  }
+  .cardContainer {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .heartFillCart {
+    left: 35%;
+  }
+  .bigBanner {
+    height: 30vh;
+    margin-top: 0px;
+  }
+  .bigLeftPara1 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  .bigLeftPara2 {
+    font-size: 14px;
+    width: 68%;
+    margin: 10px 0;
+  }
+  .bigLeft {
+    margin-left: 10px;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  .shopNowButton {
+    margin-top: 8px;
+    padding: 5px 0;
+    font-size: 12px;
+  }
+  .mobilePhoneImage {
+    margin-top: 0px;
+    width: 55%;
+    height: 200px;
+    margin-left: 50px;
+  }
+  .services {
+    width: 98%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .servicesComponent {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .featureProductContainer {
+    margin-top: 0px;
+  }
+  .featuredProductMultiCrausel {
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px 0;
+  }
+  .featureProductCard {
+    padding: 0 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    height: 10vh;
+    width: 300px;
+  }
+  .footer {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+  .footer1 {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .footer1Common {
+    width: 100%;
+    padding: 5px 10px;
+  }
+  .footer2 {
+    width: 100%;
+    margin: 5px auto;
+    flex-direction: column;
+  }
+  .footer2Title {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .footer2Header {
+    padding: 5px 0;
+    font-size: 13px;
+  }
+  .footer2Para {
+    padding: 6px 3px;
+    font-size: 10px;
+  }
+}
