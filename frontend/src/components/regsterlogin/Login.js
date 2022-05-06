@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import axios from "axios";
 import "./registerlogin.css";
-import "./registerLoginresponsive.css";
 import RegistrationLoginImage from "../assets/login.png";
 // const url = "http://localhost:3002";
 const url = "https://ishopbackendsktech.herokuapp.com";
@@ -24,15 +23,6 @@ const Login = () => {
     e.preventDefault();
     setformerror(validate(loginData));
     try {
-      // const res = await axios.post(`${url}/login`, loginData);
-      // if (res.status === 400 || !res) {
-      //   window.alert("invalid data");
-      //   console.log("invalid data");
-      // } else {
-      //   window.alert("login successfull");
-      //   console.log("login successfull");
-      //   navigate("/");
-      // }
       const res = await fetch(`${url}/login`, {
         method: "POST",
         headers: {

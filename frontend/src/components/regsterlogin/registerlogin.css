@@ -59,3 +59,10 @@
   color: red;
   font-size: 12px;
 }
+@media (max-width: 840px) {
+  .loginContainer,
+  .registration {
+    width: 95%;
+    margin: 20px auto;
+  }
+}

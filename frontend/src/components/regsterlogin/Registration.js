@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, NavLink } from "react-router-dom";
 import axios from "axios";
 import registrationLoginimage from "../assets/login.png";
-import "./registerLoginresponsive.css";
 import Dialog from "@mui/material/Dialog";
 // const url = "http://localhost:3002";
 const url = "https://ishopbackendsktech.herokuapp.com";
